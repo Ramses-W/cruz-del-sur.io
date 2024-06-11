@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: antiquewhite;
+}
+nav {
+    background-color: rgb(88, 119, 142);
+    display: flex;
+    position: sticky;
+}
+img {
+    margin-left: 30px;
+    width: 30%;
+}
+#U1 {
+    display: flex;
+    margin: auto;
+    margin-left: 60px;
+    width: 60%;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#U1 a {
+    text-decoration: none;
+}
+#U1 a:hover {
+    color: beige;
+    text-decoration: underline 5px;
+    border-radius: 20px;
+}
+li {
+    color: whitesmoke;
+    list-style-type: none;
+}
+section {
+    display: flex;
+    height: 420px;
+}
+#A1{
+    width: 80%;
+    padding-top: 5px;
+    height: 432px;
+    text-align: center;
+}
+#A1 hr {
+    width: 90%;
+    margin: auto;
+}
+table {
+    width: 80%;
+    background-color: beige;
+}
+table ,th,td {
+    border: 1px solid;
+    margin: auto;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+.td1 {
+    background-color: rgb(88, 119, 142);
+}
+#A2 {
+    width: 20%;
+    margin-right: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(88, 119, 142);
+    color: white;
+    border-radius: 10px;
+}
+audio {
+    margin-top: 15px;
+    width: 40%;
+}
+.D1 {
+    text-align: left;
+}
+.D1 p {
+    text-align: left;
+}
+#consulta {
+    background-color: whitesmoke;
+    color: black;
+    width: 40%;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+}
+input {
+    width: 100%;
+}
+p {
+    text-align: center;
+}
+footer {
+    height: 186px;
+    display: flex;
+    background-color: rgb(88, 119, 142);
+}
+#F1 {
+    width: 30%;
+}
+#F1 div {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+#F1 img {
+    width: 55%;
+    margin-left: 0;
+}
+#F1 p {
+    text-align: left;
+    width: 90%;
+    color: white;
+}
+#F1 a {
+    text-decoration: none;
+    color: white;
+    width: 90%;
+    
+}
+#F2 {
+    width: 80%;
+    color: white;
+    display: flex;
+    margin: 10px;
+    height: 167px;
+}
+#F2 hr {
+    width: 90%;
+}
+#D1 {
+    width: 33.33%;
+    text-align: left;
+    height: 165px;
+    margin-right: 5px;
+}
+#D2 {
+    width: 33.33%;
+    height: 165px;
+    margin-right: 5px;
+}
+#D3 {
+    width: 33.33%;
+    height: 165px;
+}
+#F2 p {
+    text-align: start;
+}
